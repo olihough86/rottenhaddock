@@ -1,0 +1,21 @@
+My apologies for the confusion. Here is an updated prompt to help bootstrap our conversation:
+
+---
+
+Hey! We are working on a project called "rottenhaddock", which is a tool for detecting phishing domains by monitoring certificate transparency logs. The project is on GitHub under the username olihough86. The project structure is as follows:
+
+```
+├── cmd
+│   ├── root.go
+│   └── run.go
+├── main.go
+└── go.mod
+```
+
+We have set up the basic boilerplate for the project and are now working on implementing the monitoring and scoring logic. We are using the CertStream library to fetch certificate data and considering using a language model to help with scoring, especially for ambiguous cases or unexpected domains.
+
+Our main focus is to improve the scoring system and possibly use a language model like GPT-3 or other AI-based approaches to enhance the detection of phishing domains. We also want to improve the existing scoring mechanism by refining the criteria, such as avoiding the term "fake TLDs" and focusing on TLDs that are more commonly used in phishing campaigns.
+
+Please feel free to ask for any additional information or source code. If you have any suggestions for implementing the monitoring logic, scoring algorithm, or incorporating a language model, please share them.
+
+---
