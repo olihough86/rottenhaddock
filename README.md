@@ -6,12 +6,13 @@ Identify phishing domains from certifiate transparency logs, a rewrite of my pre
 
 At this point I'm gathering data, I have roghtly 40,000 domains which have been classfied elsewehre, this should be enough for a test data set while I iron out what I'm doing
 
-This is a refrence for the CSV headers
+This is a refrence for the CSV headers for your training data, as I'm not able to share mine
 ```
-    "td": Task Domain (the domain itself)
-    "dl": Domain Length (the length of the domain name)
-    "nos": Number of Subdomains (the number of subdomains in the domain)
-    "nod": Number of Digits (the count of digits in the domain name)
-    "noh": Number of Hyphens (the count of hyphens in the domain name)
-    "m": Malicious (the target variable indicating whether the domain is phishing or not)
+- "td": Task Domain (the specific task or activity that the domain is related to)
+- "tld": Top-Level Domain (the highest level of the domain name, such as .com or .org)
+- "dl": Domain Length (the total length of the domain name, including subdomains and TLD)
+- "nos": Number of Subdomains (the count of subdomains in the domain)
+- "nod": Number of Digits (the count of digits in the domain name)
+- "noh": Number of Hyphens (the count of hyphens in the domain name)
+- "m": Malicious (the target variable indicating whether the domain is a potential phishing attack or not)
 ```
