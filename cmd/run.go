@@ -49,7 +49,7 @@ func monitorCertStream() {
 }
 
 func predictDomain(domain string) {
-	preprocessedDomain := preprocessDomain(domain)
+	preprocessedDomain := preprocessDomain(domain) // THIS IS WHY IT DOESN'T WORK AS THIS DOES NOT EXIST YET
 
 	// Remove the 'td' field from the preprocessedDomain
 	preprocessedDomain = append(preprocessedDomain[:0], preprocessedDomain[1:]...)
