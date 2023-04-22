@@ -2,6 +2,27 @@
 
 Identify phishing domains from certifiate transparency logs, a rewrite of my previous 'strinkyphish' project utilizing more modern techniques
 
+I KNOW IT DOES NOT BUILD
+
+```
+Roten Haddock is a tool for detecting phishing domains
+
+Usage:
+  rottenhaddock [command]
+
+Available Commands:
+  completion  Generate the autocompletion script for the specified shell
+  help        Help about any command
+  run         Start monitoring certificate transparency logs for potential phishing domains
+  train       Train the phishing detection model
+
+Flags:
+  -h, --help   help for rottenhaddock
+
+Use "rottenhaddock [command] --help" for more information about a command.
+```
+
+
 ### I am also trying my first attempt at training a classification model
 
 At this point I've gathered some data (top 1M domains and around 60,000 previously classified phishing domains)
