@@ -4,7 +4,7 @@ Identify phishing domains from certifiate transparency logs, a rewrite of my pre
 
 ### I am also trying my first attempt at training a classification model
 
-At this point I'm gathering data, I have roghtly 40,000 domains which have been classfied elsewehre, this should be enough for a test data set while I iron out what I'm doing
+At this point I've gathered some data (top 1M domains and arond 60,000 previously claffified phishing domains)
 
 This is a refrence for the CSV headers for your training data, as I'm not able to share mine
 ```
